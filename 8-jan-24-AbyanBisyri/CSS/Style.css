@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    text-align: center;
+color: #11009E;
+margin-bottom: 10px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+
+header h3 {
+    margin-top: auto;
+    margin-bottom: 10px;
+    text-align: center;
+color: #7FC7D9;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+header p {
+    margin-top: auto;
+    text-align: center;
+    font-size: small;}
+
+.Inputssection {
+    display: flex;
+    flex-direction: column;
+}
+
+    #Squareside {
+        margin-top: 10px;
+        outline: none;
+    border-radius: 6px;
+border-color: solid #F3F8FF;
+padding: 10px;}
+
+#Squareside:focus {
+    border: solid #092635;
+}
+
+button{
+    background-color: #96EFFF;
+    column-width: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5FBDFF;
+}
+
+button:active {
+background-color: #11009E;
+transform: translate3d(auto);
+}

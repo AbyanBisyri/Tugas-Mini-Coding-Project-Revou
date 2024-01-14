@@ -1,5 +1,8 @@
-body {
+#body {
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 10 px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 header h1 {
@@ -27,18 +30,30 @@ header p {
     flex-direction: column;
 }
 
-    #Squareside {
+    #Panjang {
         margin-top: 10px;
         outline: none;
     border-radius: 6px;
 border-color: solid #F3F8FF;
 padding: 10px;}
 
-#Squareside:focus {
+#Lebar {
+    margin-top: 10px;
+    margin-left: 15px;
+    outline: none;
+border-radius: 6px;
+border-color: solid #F3F8FF;
+padding: 10px;}
+
+#Panjang:focus {
     border: solid #092635;
 }
 
-button{
+#Lebar:focus {
+    border: solid #092635;
+}
+
+#button{
     background-color: #96EFFF;
     column-width: white;
     border: none;
@@ -47,11 +62,18 @@ button{
     cursor: pointer;
 }
 
-button:hover {
+#HasilPerhitungan {
+    margin-top: 10px;
+    outline: none;
+border-radius: 6px;
+border-color: solid #F3F8FF;
+padding: 10px;}
+
+#button:hover {
     background-color: #5FBDFF;
 }
 
-button:active {
+#button:active {
 background-color: #11009E;
 transform: translate3d(auto);
 }

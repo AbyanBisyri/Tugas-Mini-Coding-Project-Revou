@@ -1,4 +1,4 @@
-function Hitung(){
+function Luas(){
     var Panjang = document.getElementById ('Panjang').value;
     var Lebar = document.getElementById ('Lebar').value;
 

@@ -1,10 +1,13 @@
-#body {
+body {
     font-family: 'Times New Roman', Times, serif;
     margin-top: 10 px;
     margin-left: 10px;
     margin-right: 10px;
-}
+    background-color: aqua;}
 
+image {
+    display: flex;
+    justify-content: center;}
 header h1 {
     text-align: center;
 color: #11009E;
@@ -27,10 +30,9 @@ header p {
 
 .Inputssection {
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column;}
 
-    #Panjang {
+#Panjang {
         margin-top: 10px;
         outline: none;
     border-radius: 6px;
@@ -46,21 +48,18 @@ border-color: solid #F3F8FF;
 padding: 10px;}
 
 #Panjang:focus {
-    border: solid #092635;
-}
+    border: solid #092635;}
 
 #Lebar:focus {
-    border: solid #092635;
-}
+    border: solid #092635;}
 
-#button{
-    background-color: #96EFFF;
+button{
+    background-color: #de96ff;
     column-width: white;
     border: none;
     border-radius: 10px;
     padding: 8px 16px;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 #HasilPerhitungan {
     margin-top: 10px;
@@ -70,10 +69,8 @@ border-color: solid #F3F8FF;
 padding: 10px;}
 
 #button:hover {
-    background-color: #5FBDFF;
-}
+    background-color: #5FBDFF;}
 
 #button:active {
 background-color: #11009E;
-transform: translate3d(auto);
-}
+transform: translate3d(auto);}

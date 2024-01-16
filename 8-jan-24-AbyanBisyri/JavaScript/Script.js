@@ -1,15 +1,27 @@
-function Luas(){
-    var Panjang = document.getElementById ('Panjang').value;
-    var Lebar = document.getElementById ('Lebar').value;
+function HitungLuas() {
+    const Sisi = document.getElementById('Sisi').value;
+    const Luas = Sisi * Sisi;
+    const outputText = `Luas = ${Sisi} x ${Sisi} = ${Luas}`;
+    document.getElementById('Luas').innerText = outputText;}
 
-    var Luas = panjang*lebar;
-    document.getElementById('Luas').innerHTML = Luas;
+function ResetInput1() {
+    document.getElementById('Sisi').value = '';
+    document.getElementById('Luas').innerText = '';}
+
+function HalamanIni() {
+    window.location.href = 'Luas.html';
 }
 
-function Keliling(){
-    var Panjang = +document.getElementById ('Panjang').value;
-    var Lebar = +document.getElementById ('Lebar').value;
+function HalamanKeliling() {
+    window.location.href = 'Keliling.html';}
 
-    var Keliling = 2*(Panjang+Lebar);
-    document.getElementById('Keliling').innerHTML = Keliling;
+function HitungKeliling() {
+    const Sisi = document.getElementById('Sisi').value;
+    const Keliling = 4 * (Sisi) ;
+    const outputText = `Keliling = 4 x (${Sisi}) = ${Keliling}`;
+    document.getElementById('Keliling').innerText = outputText;
 }
+
+function resetInput2() {
+    document.getElementById('Sisi').value = '';
+    document.getElementById('Keliling').innerText = '';}

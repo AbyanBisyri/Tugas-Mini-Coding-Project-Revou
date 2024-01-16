@@ -1,76 +1,100 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 10 px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: aqua;}
+    font-family: Arial, sans-serif;
+    background-color: #03fdfd;}
 
-image {
-    display: flex;
-    justify-content: center;}
-header h1 {
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;}
+
+h1 {
+    color: #11009E;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-color: #11009E;
-margin-bottom: 10px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+    background-color:#faf9fc ;
+    padding: 50px;
+    border-radius: 10px;}
 
-
-header h3 {
+h2 {
     margin-top: auto;
     margin-bottom: 10px;
     text-align: center;
-color: #7FC7D9;
-font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-
-header p {
-    margin-top: auto;
+h4 {
     text-align: center;
-    font-size: small;}
+    color: black;}
 
-.Inputssection {
-    display: flex;
-    flex-direction: column;}
+h3 {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: darkred;
+    font-size: 30px;}
 
-#Panjang {
-        margin-top: 10px;
-        outline: none;
-    border-radius: 6px;
-border-color: solid #F3F8FF;
-padding: 10px;}
+image {
+        display: flex;
+    justify-content: center;}
 
-#Lebar {
-    margin-top: 10px;
-    margin-left: 15px;
-    outline: none;
-border-radius: 6px;
-border-color: solid #F3F8FF;
-padding: 10px;}
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
 
-#Panjang:focus {
-    border: solid #092635;}
+input[type="number"] {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    border-color: mediumblue;}
 
-#Lebar:focus {
-    border: solid #092635;}
-
-button{
-    background-color: #de96ff;
-    column-width: white;
+button {
+    background-color: #1badd6;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
     border: none;
-    border-radius: 10px;
-    padding: 8px 16px;
-    cursor: pointer;}
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-radius: 30px;}
 
-#HasilPerhitungan {
-    margin-top: 10px;
-    outline: none;
-border-radius: 6px;
-border-color: solid #F3F8FF;
-padding: 10px;}
+button :active {
+    background-color: blue;
+    transform: scale3d(auto);}
 
-#button:hover {
-    background-color: #5FBDFF;}
+button:hover {
+    background-color: cornflowerblue;}
 
-#button:active {
-background-color: #11009E;
-transform: translate3d(auto);}
+.resetbutton {
+    margin-right: 30px;
+    background-color: cornflowerblue;}
+
+.LuasPersegiButton {
+    background-color: #1badd6;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;}
+
+.KelilingPersegiButton {
+    background-color: #1badd6;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;}

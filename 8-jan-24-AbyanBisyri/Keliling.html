@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik Kalkulator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Kalkulator Matematika Penghitung Luas dan Keliling Persegi</h1>
+    </header>
+
+    <section class="container">
+        <h2>Kalkulator Penghitung Persegi</h2>
+        <h4>Web yang Memiliki Kegunaan Untuk Menghitung Luas dan Keliling Persegi Dalam Rangka Mengerjakan Tugas Mini Project dari Revou</h4>
+
+        <button onclick="HalamanIni()" class="LuasPersegiButton" id="LuasPersegi">Luas Persegi</button>
+
+        <button onclick="HalamanKeliling()" class="KelilingPersegiButton" id="KelilingPersegi">Keliling Persegi</button>
+        
+        <div class="card">
+            <h3>Keliling Persegi</h3>
+            <div>
+            <img class= "Persegi" src="Image.png">
+            </div>
+            <br>
+
+            <br>
+            <b>Rumus dari Keliling Persegi Yaitu : 4 x Sisi </b>
+            <br>
+            <p>Di mana :</p>
+
+            <p>K = Keliling</p>
+            <p>S = Sisi</p>
+            <p>Nilai Sisi : </p>
+            <input type="number" id="Sisi" placeholder="Masukkan Nilai Keliling Persegi">
+            <button onclick="HitungKeliling()">Hitung</button>
+            <p>Hasilnya Adalah :</p>
+            <p id="Keliling"></p>
+            <button class="ResetButton" Onclick="ResetInput2()">Reset</button>
+        </div>
+    </section>
+
+    <script src="JavaScript/Script.js"></script>
+</body>
+</html>

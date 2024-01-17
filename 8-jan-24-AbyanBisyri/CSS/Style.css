@@ -34,9 +34,10 @@ h3 {
     background-color: darkred;
     font-size: 30px;}
 
-image {
-        display: flex;
-    justify-content: center;}
+.Persegi {
+    display: flex;
+    justify-content: center;
+    margin: auto;}
 
 .card {
     background-color: #fff;
@@ -73,9 +74,9 @@ button :active {
 button:hover {
     background-color: cornflowerblue;}
 
-.resetbutton {
+.ResetButton {
     margin-right: 30px;
-    background-color: cornflowerblue;}
+    background-color: navy;}
 
 .LuasPersegiButton {
     background-color: #1badd6;

@@ -22,6 +22,6 @@ function HitungKeliling() {
     document.getElementById('Keliling').innerText = outputText;
 }
 
-function resetInput2() {
+function ResetInput2() {
     document.getElementById('Sisi').value = '';
     document.getElementById('Keliling').innerText = '';}
